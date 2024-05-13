@@ -3,9 +3,34 @@
 @tailwind utilities;
 
 :root {
-  --background-paper:  #d4eaf7;
-  --background-paper-hover: #b6ccd8;
+  --primary-100-light: #d4eaf7; /* Light: Para resaltar elementos principales */
+  --primary-200-light: #b6ccd8; /* Light: Para acentuar áreas importantes */
+  --primary-300-light: #3b3c3d; /* light: Para elementos de contraste y texto principal */
 
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-100-dark: #0085ff; /* dark: Para resaltar elementos principales */
+  --primary-200-dark: #69b4ff; /* dark: Para acentuar áreas importantes */
+  --primary-300-dark: #e0ffff; /* dark: Para elementos de contraste y texto principal */
+
+  /* Colores de acento */
+  --accent-100-light: #71c4ef; /* light: Para realzar elementos secundarios */
+  --accent-200-light: #00668c; /* light: Para contrastar áreas específicas */
+
+  --accent-100-dark: #006fff; /* dark: Para realzar elementos secundarios */
+  --accent-200-dark: #e1ffff; /* dark: Para contrastar áreas específicas */
+
+  /* Colores de texto */
+  --text-100-light: #1d1c1c; /* light: Para texto principal sobre fondo claro */
+  --text-200-light: #313d44; /* light: Para texto secundario sobre fondo claro */
+
+  --text-100-dark: #FFFFFF; /* dark: Para texto principal sobre fondo oscuro */
+  --text-200-dark: #9e9e9e; /* dark: Para texto secundario sobre fondo oscuro */
+
+  /* Colores de fondo */
+  --bg-100-light: #fffefb; /* light: Fondo principal */
+  --bg-200-light: #f5f4f1; /* light: Fondos secundarios */
+  --bg-300-light: #cccbc8; /* light: Fondos de contraste */
+
+  --bg-100-dark: #1E1E1E; /* dark: Fondo principal */
+  --bg-200-dark: #2d2d2d; /* dark: Fondos secundarios */
+  --bg-300-dark: #454545; /* dark: Fondos de contraste */
 }
